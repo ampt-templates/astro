@@ -11,7 +11,7 @@
     "org": "",
     "app": "astro"
   },
-  "dependencies": {
+  "devDependencies": {
     "@ampt/astro": "^0.0.1-beta.4",
     "astro": "^2.10.14"
   },
