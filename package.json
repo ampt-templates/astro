@@ -12,7 +12,7 @@
     "app": "astro"
   },
   "devDependencies": {
-    "@ampt/astro": "^0.0.1-beta.4",
+    "@ampt/astro": "^1.0.0",
     "astro": "^2.10.14"
   },
   "files": [
