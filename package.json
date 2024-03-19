@@ -4,16 +4,22 @@
   "main": "dist/entry",
   "version": "0.0.1",
   "scripts": {
-    "ampt:dev": "astro dev --experimental-integrations --experimental-ssr",
-    "ampt:build": "astro build --experimental-integrations --experimental-ssr",
+    "ampt:dev": "astro dev",
+    "ampt:build": "astro check && astro build",
     "gitpod:ampt": "./node_modules/.bin/ampt"
   },
   "ampt": {
     "app": "",
-    "org": ""
+    "org": "",
+    "runtime": "nodejs20",
+    "buildRuntime": "nodejs20"
+  },
+  "dependencies": {
+    "@ampt/astro": "^4.0.0",
+    "astro": "^4.5.6"
   },
   "devDependencies": {
-    "@ampt/astro": "^1.0.0",
-    "astro": "^2.10.14"
+    "typescript": "^5.4.2",
+    "@astrojs/check": "^0.5.9"
   }
 }
